@@ -5,8 +5,15 @@ function ReviewForm({ book }) {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Implement a function to submit the review for the selected book
-    // You may need to send this data to a server or store it in a state
+
+    // Assuming the review is successfully "submitted" here
+    // You can replace this with your desired logic
+
+    // Show an alert
+    alert('Review submitted successfully');
+
+    // Clear the review text after submission
+    setReview('');
   };
 
   return (
